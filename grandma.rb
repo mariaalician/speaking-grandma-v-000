@@ -1,7 +1,10 @@
 # Write a speak_to_grandma method.
 phrase = "Hi grandma"
 def speak_to_grandma(phrase)
-  if phrase == 
+  if phrase =~ /[A-Z]/
+    
+  else
+    puts "H"
 
 
   
