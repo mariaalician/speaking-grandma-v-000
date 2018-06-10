@@ -4,7 +4,7 @@ def speak_to_grandma(phrase)
   if phrase =~ /[A-Z]/
     
   else
-    puts "H"
+    puts "HUH?! SPEAK UP, SONNY!"
 
 
   
