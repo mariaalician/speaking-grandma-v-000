@@ -1,7 +1,8 @@
 # Write a speak_to_grandma method.
 phrase = "Hi grandma"
 def speak_to_grandma(phrase)
-  if phrase =~ /[A-Z]/
+  if phrase == phrase.upcase
+    
     
   else
     puts "HUH?! SPEAK UP, SONNY!"
